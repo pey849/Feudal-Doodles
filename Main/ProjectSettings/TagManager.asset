@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Block
+  - cannonball
+  - GameManager
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Walls
+  - Player
+  - Flag
+  - Castles
+  - SafeZoneLeft
+  - SafeZoneRight
+  - OffLimits
+  - WallCheck
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Castles
+    uniqueID: 3363866505
+    locked: 0
+  - name: Blocks
+    uniqueID: 383924619
+    locked: 0
+  - name: Player
+    uniqueID: 2680231665
+    locked: 0
+  - name: Pencil
+    uniqueID: 2277058269
+    locked: 0
+  - name: CastleCover
+    uniqueID: 543797149
+    locked: 0

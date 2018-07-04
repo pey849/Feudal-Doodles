@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1211668549538388}
+  m_IsPrefabParent: 1
+--- !u!1 &1211668549538388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4426023627811316}
+  - component: {fileID: 114212006852940044}
+  m_Layer: 0
+  m_Name: Renderer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4426023627811316
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1211668549538388}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 30, y: -1.365, z: 5.95}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114212006852940044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1211668549538388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6fc0913b1e7e634fa55fbecbceda8b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pencilEffect: {fileID: 1753313369847684, guid: f4d9a9388a7eab94f8d314ecbd70faa4,
+    type: 2}
+  NormalBlock: {fileID: 1559727562956978, guid: 4b4a889274dd6184c8ab0e0d35a1ed0e,
+    type: 2}
+  iceBlock: {fileID: 1648873420949692, guid: 6f3ae54d1421f154a82daf61cf08b00c, type: 2}
+  fireBlock: {fileID: 1081090440748080, guid: 79ce83ff365ed4c42a8e439e186bf463, type: 2}
+  cannonBlock: {fileID: 1216301891167258, guid: 561648d570423b841b893f2ad6b25103,
+    type: 2}
+  smokeBlock: {fileID: 1142814388911770, guid: 6682dcce8c23f7f48a17a272dd565392, type: 2}
+  mineBlock: {fileID: 1933717065052780, guid: 2590d7303656d9b4bbdad47c4d440245, type: 2}
+  tempBlock: {fileID: 1559727562956978, guid: 4b4a889274dd6184c8ab0e0d35a1ed0e, type: 2}
+  tarBlock: {fileID: 1217798773995798, guid: 9e1912669b9fae74eaa6dc7a825af1fc, type: 2}
+  jumpPadBlock: {fileID: 1412018389311884, guid: dfd39a18a15d72d428f50641e4169d19,
+    type: 2}
+  ghostBlock: {fileID: 1862076982743558, guid: 3a708647ee481504e8fc50398d8b9017, type: 2}
+  oneTimeBlock: {fileID: 1342508970795750, guid: 34806f30bffbc044aaf8ecaed12ba850,
+    type: 2}
+  spikeBlock: {fileID: 1468109938195258, guid: 990aa0e92322fef4e9c4a9552a8ec49f, type: 2}
+  cs:
+    fromHost: 0
+    blocks: []
+    blocksAdded: []
+    blocksRemoved: []
+  engine: {fileID: 0}
